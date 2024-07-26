@@ -1,9 +1,11 @@
-console.log('hello world! Project initialized');
-
-const getPlayerName = document.querySelector('#player1');
+const player1submit = document.querySelector('#submit');
 
 const marioModal = document.querySelector('.modal');
 
+const closeModal = document.querySelector('.closeModal');
+
+const marioName = document.querySelector('.marioName');
+//add an array of Mario images with text as well
 const babyMario = {
    name: 'Baby',
    src: './img/baby-mario.png',
@@ -56,58 +58,64 @@ const tuxMario = {
    name: 'Tuxedo',
    src: './img/tux-mario.png',
 };
-console.log(babyMario);
+//console.log(babyMario);
 const marioPics = [babyMario, catMario, beeMario, booMario, capeMario, classicMario, doctorMario,fireMario,fluddMario,frogMario,tanookiMario,trexMario,tuxMario];
 
-console.log(marioPics);
-
-const randoMario = document.querySelector('#marioModalWrapper');
-
-//let player1Name = localStorage.getItem('player1');
+//console.log(marioPics);
 
 const displayMarioPic = function () {
-
-   // Clear the employee table
+   //display modal -> 
+   marioModal.setAttribute( 'style', 'display: block;');
+   
+   const getPlayerName = document.querySelector('#player1');
+   const player1SaveName = getPlayerName.value;
+   localStorage.setItem('player1', player1SaveName);
+   
+   const player1Name = localStorage.getItem('player1');
+   
+  // console.log(getPlayerName);
+  // console.log(player1Name);
+   // Clear the top player table
  // randoMario.innerHTML = '';
         // Get the mario image
   let marioImg = document.createElement('img');
-  console.log('image tag created');
-   const randoMario = [Math.floor(Math.random() * marioPics.length)];
-  let targetMario = marioPics[randoMario];
+  let marioTxt = document.createElement('p');
+  //console.log('image tag created');
+  // const randoMario = [Math.floor(Math.random() * marioPics.length)];
+  //let targetMario = marioPics[randoMario];
+   let targetMario = marioPics[Math.floor(Math.random() * marioPics.length)];
+//   console.log(targetMario);
   marioImg.setAttribute(
         'src' , targetMario['src']
     );
-   document.getElementById('marioModalWrapper').appendChild(marioImg);
+   const randomMarioName = targetMario['name'];
+ //  console.log(randomMarioName);
+   marioTxt.textContent = `You've Got ${randomMarioName} Mario!`;
+   //display randomized Mario image
+//   console.log(marioTxt);
+   localStorage.setItem('marioPlayerName', randomMarioName);
 
+   marioName.textContent = `${randomMarioName} ${player1Name}`;
+   document.getElementById('marioModalWrapper').appendChild(marioImg);
+  // display Mario text
+   document.getElementById('marioModalWrapper').appendChild(marioTxt);
+   localStorage.removeItem(player1SaveName);
+   localStorage.removeItem('marioPlayerName');
+
+   closeModal.addEventListener('click', () => {
+      marioModal.setAttribute('style', 'display: none;');
+      marioImg.remove();
+      marioTxt.remove();
+   }
+   );
 };
 
-displayMarioPic();
-
-//if (marioPics === true) {
-//    console.log('its a me!')
-//    const imgTag = 'img';
-//    document.body.createElement(marioPics)
-//};
-//add an array of Mario images with text as well
-
 //add input name field Player1 to browser data
-//localStorage.setItem('player1', player1Name);
-//display modal -> display image area
+
+
 
 //either create a gif of Mario images or use JS to rotate through the Mario images
 
-//display randomized Mario image
-//const randomEmployee = employeesArray[Math.floor(Math.random() * employeesArray.length)];
-//console.log(`Congratulations to ${randomEmployee.firstName} ${randomEmployee.lastName}, our random drawing winner!`);
-//display Mario Image text in a string "You are ${marioName} Mario!"
-
-//save marioName to browser data
-
-//Change topName span to marioName player1
-//const addTopPlayer = function () {
-
-   // localStorage.setItem('', JSON.stringify(user));
-//};
-
 //Add Event Listener - click - submit
-//randomMario.addEventListener('click', addTopPlayer);
+player1submit.addEventListener('click', displayMarioPic);
+
