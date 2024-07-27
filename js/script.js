@@ -58,6 +58,10 @@ const tuxMario = {
    name: 'Tuxedo',
    src: './img/tux-mario.png',
 };
+const marioGif = {
+   'src': './img/marios-gif.gif'
+};
+
 //console.log(babyMario);
 const marioPics = [babyMario, catMario, beeMario, booMario, capeMario, classicMario, doctorMario,fireMario,fluddMario,frogMario,tanookiMario,trexMario,tuxMario];
 
@@ -66,13 +70,34 @@ const marioPics = [babyMario, catMario, beeMario, booMario, capeMario, classicMa
 const displayMarioPic = function () {
    //display modal -> 
    marioModal.setAttribute( 'style', 'display: block;');
+   let secondsLeft = 2;
+   function setTime() {
    
+   let timerInterval = setInterval(function () { 
+   secondsLeft--; 
+   console.log(secondsLeft);
+   if (secondsLeft === 0) {
+      // Stops execution of action at set interval 
+      clearInterval(timerInterval);
+      // Calls function to create and append image
+      marioImg.setAttribute('style', 'display: block;');
+      marioTxt.setAttribute('style', 'display: block;');
+      marioName.setAttribute('style', 'display: inline-block;');
+      playMarioGif.setAttribute('style', 'display: none;');
+   }
+   }, 1000);
+}
+   setTime();
    const getPlayerName = document.querySelector('#player1');
    const player1SaveName = getPlayerName.value;
    localStorage.setItem('player1', player1SaveName);
    
    const player1Name = localStorage.getItem('player1');
-   
+   let playMarioGif = document.createElement('img');
+   playMarioGif.setAttribute(
+      'src', marioGif['src']
+   );
+   document.getElementById('marioModalWrapper').appendChild(playMarioGif); 
   // console.log(getPlayerName);
   // console.log(player1Name);
    // Clear the top player table
@@ -88,6 +113,9 @@ const displayMarioPic = function () {
   marioImg.setAttribute(
         'src' , targetMario['src']
     );
+   marioImg.setAttribute('style', 'display: none;');
+   marioTxt.setAttribute('style', 'display: none;');
+   marioName.setAttribute('style', 'display: none;');
    const randomMarioName = targetMario['name'];
  //  console.log(randomMarioName);
    marioTxt.textContent = `You've Got ${randomMarioName} Mario!`;
@@ -109,12 +137,6 @@ const displayMarioPic = function () {
    }
    );
 };
-
-//add input name field Player1 to browser data
-
-
-
-//either create a gif of Mario images or use JS to rotate through the Mario images
 
 //Add Event Listener - click - submit
 player1submit.addEventListener('click', displayMarioPic);

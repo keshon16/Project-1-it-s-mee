@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Project 1 Title</title>
     <link rel="stylesheet" href="./css/styles.css">
-    <script src="./js/script.js" defer></script>
+
 </head>
 
 <body>
@@ -20,14 +20,63 @@
         </nav>
     </header>
     <main>
-        <h1>Contact</h1>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora voluptatibus recusandae dignissimos commodi
-            veniam eveniet obcaecati libero illum qui placeat iure aliquid at eum explicabo similique fugiat odit,
-            incidunt facilis!</p>
+        <h1><img src="./img/coin-icon.gif"> X <span class="coinTotal">00</span></h1>
+        <p><img src="./img/question-block.gif" class="question-block""></p>
     </main>
     <footer>
         &copy; 2024 All rights reserved.
     </footer>
+    <script>
+let coinSound = new Audio('./sounds/mario-money-sound-edit.mp3');
+let oneUp = new Audio('./sounds/smb_1-up.mp3');
+let bump = new Audio('./sounds/smb_bump.mp3'); 
+const coinTotal = document.querySelector('.coinTotal');
+const questionBlock = document.querySelector('.question-block');
+let coins = sessionStorage.getItem('savedCoins');
+coinTotal.textContent = coins;
+sessionStorage.removeItem('savedCoins');
+sessionStorage.setItem('savedCoins', 0)
+questionBlock.addEventListener('click', function () {
+    // if the coin total is less that 99, then add 1
+    if (coins <= 9) {
+            coins++;
+            coinTotal.textContent = coins;
+         // coinSound.play();
+         //  bump.play();
+            sessionStorage.setItem('savedCoins', coins);
+            questionBlock.classList.add("coinBounce");
+        }
+ //event listener is not working
+ questionBlock.addEventListener('animationEnd', () => {
+        questionBlock.classList.remove("coinBounce");
+    });
+      if (coins >= 9) {
+        coins = 0;
+      //  oneUp.play();
+        coinsound.pause();
+        coinTotal.textContent = coins;
+        sessionStorage.setItem('savedCoins', 0);
+        }   
+      }
+    );
+
+    </script>
+    <style>
+.coinBounce {animation: coinBounce 0.1s linear forwards;}
+
+        @keyframes coinBounce {
+           0% {
+                position: relative; top: 0; 
+            }
+            50% {
+                position: relative; top: -5px; 
+            } 
+
+           100% {
+               position: relative; top: 0; 
+            } 
+        }
+    </style>
 </body>
 
 </html>
