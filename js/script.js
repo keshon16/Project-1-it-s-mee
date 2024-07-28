@@ -141,3 +141,37 @@ const displayMarioPic = function () {
 //Add Event Listener - click - submit
 player1submit.addEventListener('click', displayMarioPic);
 
+let coinSound = new Audio('./sounds/mario-money-sound-edit.mp3');
+let oneUp = new Audio('./sounds/smb_1-up.mp3');
+let bump = new Audio('./sounds/smb_bump.mp3');
+const coinTotal = document.querySelector('.coinTotal');
+const questionBlock = document.querySelector('.question-block');
+let coins = sessionStorage.getItem('savedCoins');
+coinTotal.textContent = coins;
+sessionStorage.removeItem('savedCoins');
+sessionStorage.setItem('savedCoins', 0);
+questionBlock.addEventListener('click', function () {
+   // if the coin total is less that 99, then add 1
+   if (coins <= 8) {
+      coins++;
+      coinTotal.textContent = coins;
+      // coinSound.play();
+      //  bump.play();
+      sessionStorage.setItem('savedCoins', coins);
+      questionBlock.classList.add("coinBounce");
+   } else {
+      coins = 0;
+      //    questionBlock.classList.remove("coinBounce");
+      //oneUp.play();
+      // bump.play();
+      coinSound.pause();
+      coinTotal.textContent = coins;
+      sessionStorage.setItem('savedCoins', 0);
+   }
+   //event listener is not working
+   questionBlock.addEventListener('animationEnd', () => {
+      questionBlock.classList.remove("coinBounce");
+   });
+
+}
+);

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 1 Title</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <script src="./js/script.js" defer></script>
+</head>
+
+<body>
+    <header class="header">
+        <nav class="nav">
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="./about.html">About</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1><img src="./img/coin-icon.gif"> X <span class="coinTotal">00</span></h1>
+        <p><img src="./img/question-block.gif" class="question-block""></p>
+    </main>
+    <footer>
+        &copy; 2024 All rights reserved.
+    </footer>
+    <style>
+.coinBounce {animation: coinBounce 0.1s 1 linear;}
+
+        @keyframes coinBounce {
+           0% {
+                position: relative; top: 0; 
+            }
+            50% {
+                position: relative; top: -5px; 
+            } 
+
+           100% {
+               position: relative; top: 0; 
+            } 
+        }
+    </style>
+</body>
+
+</html>
