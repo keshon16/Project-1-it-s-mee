@@ -18,6 +18,10 @@ const booMario = {
    name: 'Boo',
    src: './img/boo-mario.png',
 };
+const builderMario = {
+   name: 'Builder',
+   src: './img/builder-mario.jpg',
+};
 const capeMario = {
    name: 'Super',
    src: './img/cape-mario.png',
@@ -34,6 +38,10 @@ const doctorMario = {
    name: 'Doctor',
    src: './img/dr-mario.png',
 };
+const elephantMario = {
+   name: 'Elephant',
+   src: './img/eleph-mario.jpg',
+};
 const fireMario = {
    name: 'Fire',
    src: './img/fire-mario.png',
@@ -45,6 +53,14 @@ const fluddMario = {
 const frogMario = {
    name: 'Frog',
    src: './img/frog-mario.png',
+};
+const golfMario = {
+   name: 'Golf',
+   src: './img/golf-mario.jpg',
+};
+const propMario = {
+   name: 'Propellar',
+   src: './img/prop-mario.jpg',
 };
 const tanookiMario = {
    name: 'Tanooki',
@@ -63,7 +79,7 @@ const marioGif = {
 };
 
 //console.log(babyMario);
-const marioPics = [babyMario, catMario, beeMario, booMario, capeMario, classicMario, doctorMario,fireMario,fluddMario,frogMario,tanookiMario,trexMario,tuxMario];
+const marioPics = [babyMario, builderMario,catMario, beeMario, booMario, capeMario, classicMario, doctorMario,elephantMario,fireMario,fluddMario,frogMario,golfMario,propMario,tanookiMario,trexMario,tuxMario];
 
 //console.log(marioPics);
 
