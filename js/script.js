@@ -185,9 +185,12 @@ questionBlock.addEventListener('click', function () {
       sessionStorage.setItem('savedCoins', 0);
    }
    //event listener is not working
-   questionBlock.addEventListener('animationEnd', () => {
-      questionBlock.classList.remove("coinBounce");
+
    });
 
+
+
+questionBlock.addEventListener('animationEnd', () => {
+   questionBlock.classList.remove("coinBounce");
 }
 );
