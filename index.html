@@ -18,7 +18,7 @@
                     <h1>It's a Mee!</h1>
                 </li>
                 <li>
-                    <img src="https://placehold.co/5x5" alt="coin"> X 00
+                    <img src="https://placehold.co/5x5" alt="coin"> X <span class="coinTotal">00</span>
                 </li>
                 <li>
                     Page<br>1-1
@@ -38,18 +38,19 @@
         <p>Click on Player 1 and Enter your Preferred Name.</p>
         <form>
             <input type="text" placeholder="Player 1" name="player1" id="player1" value="Player One">
-            <input type="submit" value="Start">
+            <input type="submit" id="submit" value="Start">
         </form>
         <p>Top Player <span class="topPlayer"></span></p>
         </aside>
     </main>
 
     <!-- Modal Section -->
-    <div id="marioModalWrapper">
+    <div class="modal">
+        <div id="marioModalWrapper">
         <!-- Image text will be added in JS -->
-        <a href="#" class="close">Close</a>
+            <a href="#" class="closeModal">Close</a>
+        </div>
     </div>
-
     <!-- Footer Section -->
     <footer>
         <!-- Footer content here -->

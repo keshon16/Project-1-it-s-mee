@@ -171,8 +171,8 @@ questionBlock.addEventListener('click', function () {
    if (coins <= 8) {
       coins++;
       coinTotal.textContent = coins;
-      // coinSound.play();
-      //  bump.play();
+      //coinSound.play();
+       //bump.play();
       sessionStorage.setItem('savedCoins', coins);
       questionBlock.classList.add("coinBounce");
    } else {
@@ -186,11 +186,10 @@ questionBlock.addEventListener('click', function () {
    }
    //event listener is not working
 
-   });
+});
 
-
-
-questionBlock.addEventListener('animationEnd', () => {
+questionBlock.addEventListener('animationend', () => {
+   console.log("animation ended");
    questionBlock.classList.remove("coinBounce");
-}
-);
+});
+
