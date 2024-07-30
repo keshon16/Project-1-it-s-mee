@@ -47,7 +47,13 @@ body {
     list-style: none;
     display: flex;
 }
-
+} @font-face {
+    font-family: 'super_mario_bros._nesregular';
+    src: url('./fonts/super-mario-bros-nes-webfont.woff2') format('woff2'),
+         url('./fonts/super-mario-bros-nes-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    
 .nav li{
     margin: 0 auto;
     font-size: 2rem;
@@ -55,7 +61,7 @@ body {
     margin-inline: 4rem;
     line-height: 4rem;
     outline: none;
-}
+} 
 
 a{
     color: white;
@@ -83,4 +89,5 @@ footer{
     background-color: teal;
     color: white;
     width: 100%;
+}
 }
