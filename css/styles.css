@@ -17,19 +17,77 @@ body,
 }
 
 body {
-  font-family: sans-serif;
-  background-color: teal;
-}
+font-size: 34px;
+font-family: 'super_mario_bros._nesregular';
+src: url('super-mario-bros-nes-webfont.woff2') format('woff2'),
+         url('super-mario-bros-nes-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+background-color: #ffffff;
+text-align: center;
+   
+input field {
+font size: 24px;
+color: #000000
+font-weight: 400;
+font-family: "DejaVu Sans";
+width: 326px;
+height: 65px;
+background-color: #000000;
+border: 5px solid #000000;
+}  
+submit button  {
+font size: 24px;
+color: #000000
+font-weight: 400;
+font-family: "DejaVu Sans";    
+width: 213px;
+height: 87px;
+background-color: #000000;
+border: 5px solid #000000;
 
-.header {
+
+header {
     padding: 0;
     margin: 0; 
-    width:100%;
-    height: 4rem;
-    background-color: teal;
+    width:1194px;
+    height: 100%;
+    background-color: #000000;
+    border: 2px solid #000000;
     list-style: none;
     display: flex;
+    font-size: 24px;
+    font-family: 'super_mario_bros._nesregular';
+    src: url('./fonts/super-mario-bros-nes-webfont.woff2') format('woff2'),
+         url('./fonts/super-mario-bros-nes-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
 } 
+
+banner { 
+    padding: 0;
+    margin: 40px
+    font-size 150px;
+    line-height: 100px
+    color: #ffc8c1;
+    font-family: 'super_mario_bros._nesregular';
+    src: url('super-mario-bros-nes-webfont.woff2') format('woff2'),
+         url('super-mario-bros-nes-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    text-align: center;
+    filter: drop-shadow (3.581px 10.401px 1px rgba(0,0,0,0.57));
+} img
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%
+    height: auto;
+}
+    
+    
+
 .coinBounce
 {animation: coinBounce 0.1s 1 linear;
  position: relative;
@@ -40,40 +98,35 @@ body {
  top: 0; 
 } 
 
-.nav ul{
+nav ul{
     margin: 0;
     padding: 0;
     height: 100%;
     list-style: none;
     display: flex;
 }
-} @font-face {
-    font-family: 'super_mario_bros._nesregular';
+
+nav li{
+    margin: 0 auto;
+    font-size: 24px;
+    color: #84a2fe;
+     font-family: 'super_mario_bros._nesregular';
     src: url('./fonts/super-mario-bros-nes-webfont.woff2') format('woff2'),
          url('./fonts/super-mario-bros-nes-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-    
-.nav li{
-    margin: 0 auto;
-    font-size: 2rem;
-    color:white;
     margin-inline: 4rem;
     line-height: 4rem;
     outline: none;
 } 
-@font-face {
-    font-family: 'super_mario_bros._nesregular';
-    src: url('super-mario-bros-nes-webfont.woff2') format('woff2'),
-         url('super-mario-bros-nes-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+
 
 a{
     color: white;
     outline: none;
     border:none;
     text-decoration: none;
+
 }
 
 body{
@@ -92,8 +145,16 @@ footer{
     position: fixed;
     bottom: 0;
     padding: 1rem;
-    background-color: teal;
-    color: white;
+    font size: 24px;
+    font-family: 'super_plumber_brothersregular';
+    src: url('./fonts/superplumberbrothers-y00v-webfont.woff2') format('woff2'),
+         url('./fonts/superplumberbrothers-y00v-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    background-color:#a26501;
+    color: #905d09;
+    color: #935c00
+    height: 135px
     width: 100%;
 }
 }
