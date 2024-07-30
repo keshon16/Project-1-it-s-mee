@@ -91,7 +91,7 @@ const displayMarioPic = function () {
    
    let timerInterval = setInterval(function () { 
    secondsLeft--; 
-   console.log(secondsLeft);
+ //  console.log(secondsLeft);
    if (secondsLeft === 0) {
       // Stops execution of action at set interval 
       clearInterval(timerInterval);
