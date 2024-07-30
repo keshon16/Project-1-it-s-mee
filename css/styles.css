@@ -5,17 +5,28 @@
     margin: 0 auto;
 }
 
-.header{
+.header {
     padding: 0;
-    margin: 0;
+    margin: 0; 
     width:100%;
     height: 4rem;
     background-color: teal;
     list-style: none;
     display: flex;
-}
+} 
+.coinBounce
+{animation: coinBounce 0.1s 1 linear;
+ postion: relative;
+ top: 0; 50%;
+ postion: relative;
+ top: -5xp; 
+ postion: relative;
+ top: 0; 
+} 
 
 .nav ul{
+    margin: 0;
+    padding: 0;
     height: 100%;
     list-style: none;
     display: flex;
@@ -40,6 +51,8 @@ a{
 body{
     margin: 0 auto;
     padding: 0;
+    background-color: #84a22fe
+    front color: #fffffff
 }
 
 main{
