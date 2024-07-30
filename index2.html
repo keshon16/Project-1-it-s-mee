@@ -39,19 +39,16 @@
     <main>
         <p>Click on Player 1 and Enter your Preferred Name.</p>
         <form>
-            <input type="text" placeholder="Player 1" name="player1" id="player1" value="Player One">
-            <input type="submit" value="Start">
+            <input type="text" placeholder="Player 1" name="player1" id="player1">
+            <submit value="Start" id="submit">Start</submit>
         </form>
-        <p>Top Player - <span class="marioName"></span></p>
+        <p class="topPlayer">Top Player - <span class="marioName"></span></p>
         <p><img src="./img/question-block.gif" class="question-block" alt="Question Block"></p>
     </main>
 
     <div class="modal">
-        <div id="marioModalWrapper">
-           
-            
-        </div>
-        <a href="#" class="close">Close</a>
+        <div id="marioModalWrapper"></div>
+        <a href="#" class="closeModal">Close</a>
     </div>
 
     <footer></footer>

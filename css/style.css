@@ -15,7 +15,7 @@
 *::before,
 *::after {
     box-sizing: border-box;
-    color: black;
+    color: white;
     padding: 0;
     margin: 0 auto;
 }
@@ -45,9 +45,8 @@ main{
 
 header {
     padding: 0;
-    margin: 0; 
+    margin: 0 auto 40px; 
     width:100%;
-    height: 4rem;
     list-style: none;
     display: flex;
 } 
@@ -61,39 +60,84 @@ header {
  top: 0; 
 } 
 
+nav {
+    width: 100%;
+}
+
 nav ul {
     margin: 0;
     padding: 0;
     height: 100%;
     list-style: none;
     display: flex;
+    width: 100%;
+    align-content: space-evenly;
+    
 }
 
 nav li {
     margin: 0 auto;
     font-size: 2rem;
     color:white;
-    margin-inline: 4rem;
     line-height: 4rem;
     outline: none;
-    
+    flex: 1 0 25%;
+    text-align: center;
 } 
 
 
-a {
+nav li span, a {
     color: white;
     outline: none;
     border:none;
     text-decoration: none;
 }
 
-b
+.banner {width: 100%;
+display: flex;
+align-items: center;
+margin-bottom: 40px;
+}
+
+main {
+    display: block;
+    max-width: 800px;
+    margin: 0 auto;
+    background: url(../img/hill-bg.png) no-repeat bottom left;
+}
+
+main p {
+    font-size: 24px;
+}
+
+main input, main submit, main p.topPlayer {
+    font-size: 36px;
+    line-height: 2em;
+}
+
+main input::before, main submit::before, {
+    content: url(../img/mushroom.png);
+}
+
+
+main form input {
+    background: none;
+    border: 0;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+}
+
+main form input::placeholder {
+    color: white;
+}
+
+main p.topPlayer {margin-top: 50px;}
 
 footer {
-    position: fixed;
-    bottom: 0;
     padding: 1rem;
-    background-color: teal;
+    background: url("../img/footer-bg.png") repeat-x;
+    height: 130px;
     color: white;
     width: 100%;
 }
