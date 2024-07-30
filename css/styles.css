@@ -1,8 +1,24 @@
-*{
+*,
+*::before,
+*::after {
     box-sizing: border-box;
     color: black;
     padding: 0;
     margin: 0 auto;
+}
+
+html,
+body,
+.wrapper {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: teal;
 }
 
 .header {
@@ -19,7 +35,7 @@
  position: relative;
  top: 0 50%;
  position: relative;
- top: -5px; 
+ top: -5xp; 
  position: relative;
  top: 0; 
 } 
