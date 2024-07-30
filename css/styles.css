@@ -62,6 +62,12 @@ body {
     line-height: 4rem;
     outline: none;
 } 
+@font-face {
+    font-family: 'super_mario_bros._nesregular';
+    src: url('super-mario-bros-nes-webfont.woff2') format('woff2'),
+         url('super-mario-bros-nes-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 
 a{
     color: white;
