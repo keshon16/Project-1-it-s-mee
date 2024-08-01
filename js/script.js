@@ -1,9 +1,6 @@
 const player1submit = document.querySelector('#submit');
-
 const marioModal = document.querySelector('.modal');
-
 const closeModal = document.querySelector('.closeModal');
-
 const marioName = document.querySelector('.marioName');
 //add an array of Mario images with text as well
 const babyMario = {
@@ -82,7 +79,6 @@ const marioGif = {
 const marioPics = [babyMario, builderMario,catMario, beeMario, booMario, capeMario, classicMario, doctorMario,elephantMario,fireMario,fluddMario,frogMario,golfMario,propMario,tanookiMario,trexMario,tuxMario];
 
 //console.log(marioPics);
-
 const displayMarioPic = function () {
    //display modal -> 
    marioModal.setAttribute( 'style', 'display: block;');
