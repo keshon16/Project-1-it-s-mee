@@ -57,7 +57,7 @@
 
 <div align=>
   <a href="https://github.com/github_username/repo_name">
-    <img src="Mario Cosplay Randomizer web.png" alt="Logo" width="100" height="50">
+    <img src="Mario Cosplay Randomizer web.png" alt="Logo" width="200" height="100">
   
 
 
