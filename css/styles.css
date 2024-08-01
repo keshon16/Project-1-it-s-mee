@@ -14,11 +14,7 @@
 *,
 *::before,
 *::after {
-<<<<<<< HEAD
-   box-sizing: border-box;
-=======
     box-sizing: border-box;
->>>>>>> a32f025c6aea2f017926b81224212ddeb29638bf
     color: black;
     padding: 0;
     margin: 0 auto;
@@ -32,46 +28,6 @@ body,
   margin: 0;
   padding: 0;
 }
-<<<<<<< HEAD
-
-body {
-font-size: 34px;
-font-family: 'super_mario_bros._nesregular';
-background-color: #ffffff;
-text-align: center;
-
-input field {
-    font-size: 24px;
-    color: #000000
-    font-weight: 400;
-    font-family: "DejaVu Sans";
-    width: 326px;
-    height: 65px;
-    background-color: #000000;
-    border: 5px solid #000000;
-    }  
-    submit button  {
-    font-size: 24px;
-    color: #000000
-    font-weight: 400;
-    font-family: "DejaVu Sans";    
-    width: 213px;
-    height: 87px;
-    background-color: #000000;
-    border: 5px solid #000000;
-    
-
-header {
-    padding: 0;
-    margin: 0;
-    width: 1194px;;
-    height: 100%;
-    background-color: #000000;
-    list-style: none;
-    display: flex;
-
-=======
->>>>>>> a32f025c6aea2f017926b81224212ddeb29638bf
 
 body {
 font-size: 34px;
