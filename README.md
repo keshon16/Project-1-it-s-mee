@@ -57,7 +57,7 @@
 
 <div align=>
   <a href="https://github.com/github_username/repo_name">
-    <img src="Mario Cosplay Randomizer web.png" alt="Logo" width="200" height="100">
+    <img src="Mario Cosplay Randomizer web.png" alt="Logo" width="300" height="200">
   
 
 
@@ -84,12 +84,12 @@ To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-You must have a working internet connection to acess the site. Once you have a working internet connection you can enjoy the discovery of which form of Mario best suites you by entering your name in the provided box. 
+You must have a working internet connection to access the site. Once you have a working internet connection, you can discover which form of Mario best suits you by entering your name in the provided box. 
 
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-This project can be used to determine what form of Mario suits you for your personal application such as cosplaying.
+This project can be used to determine what form of Mario suits you for your application such as cosplaying.
 
 
 
