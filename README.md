@@ -3,7 +3,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/github_username/repo_name">
-    <img src="https://github.com/keshon16/Project-1-it-s-mee/blob/main/img/banner-image.png" alt="Logo" width="350" height="150">
+    <img src="https://github.com/keshon16/Project-1-it-s-mee/blob/main/img/question-block.gif" alt="Logo" width="100" height="100">
   </a>
 
 <h3 align="center">Mario Cosplay Randomizer</h3>
@@ -55,8 +55,10 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
-
+<div align=>
+  <a href="https://github.com/github_username/repo_name">
+    <img src="https://github.com/keshon16/Project-1-it-s-mee/blob/main/img/banner-image.png" alt="Logo" width="100" height="50">
+  
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
