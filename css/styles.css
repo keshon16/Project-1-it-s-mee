@@ -28,9 +28,10 @@ body,
 }
 body {
 font-size: 34px;
-font-family: 'Super Mario Bros. NES',"DejaVu Sans";
+font-family: 'Super Mario Bros. NES', Helvetica,"DejaVu Sans";
 background-color: #FFFFFF;
 text-align: center;
+text-transform: uppercase;
 }
 .input text {
     font-size: 24px;
@@ -55,8 +56,8 @@ text-align: center;
     }
     .form {
     width: 400px;
-    height: auto;
-    margin: 0;
+    max-width: 100%;
+    margin: 0 auto;
     padding: 0;
     }
 header {
