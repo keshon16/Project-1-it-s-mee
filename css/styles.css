@@ -195,25 +195,13 @@ footer{
     height: 135px;
     border: 5px soild #000000;
 }
-    @media screen and (min-width: 450px)  {
+    @media screen and (min-width: 1880px)  {
        .question-block {
         right: 20;
-        display: flex;
-        width: 100%;
-        flex-direction: column;
-        margin-top: 20px;
-        margin-bottom: 20px;
        }
-    }
-        nav ul {flex-direction: column;
-        line-height: 24px;
-        margin: 0%;
-        padding: 0%;
-        height: 384.5px;
-        align-content: space-evenly;
-        header {margin: 0 40px;}
+
         }
-    @media screen and (max-width: 768px)
+    @media screen and (max-width: 1024px)
         main : padding 0 10px;
         .modal {padding-bottom: 20px;
          height: 128px;
@@ -223,7 +211,7 @@ footer{
         background-size: cover;
          align-content: space-evenly
         }
-     @media screen and (max-width: 1024px) {
+     @media screen and (max-width: 767px) {
         header {margin: 0 auto;}
         nav ul {flex-direction: column; margin-top: 20px}
         nav ul li {line-height: 1.5em; margin-bottom: 20px; flex: 0 1;}
