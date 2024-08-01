@@ -1,30 +1,122 @@
-# Project-1-it-s-mee
 
-## Description
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <a href="https://github.com/github_username/repo_name">
+    <img src="https://github.com/keshon16/Project-1-it-s-mee/blob/main/img/banner-image.png" alt="Logo" width="350" height="150">
+  </a>
 
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
+<h3 align="center">Mario Cosplay Randomizer</h3>
 
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn?
+  <p align="center">
+    Mario Cosplay Randomizer is an interactive application that provides an array of Mario cosplay ideas. It's the ideal application for enthusiasts of the Mario franchise looking for inspiration for their next cosplay.
+    <br />
+    <a href="https://github.com/github_username/repo_name"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    <a href="https://github.com/github_username/repo_name">View Demo</a>
+    ·
+    <a href="https://github.com/github_username/repo_name/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
+    ·
+    <a href="https://github.com/github_username/repo_name/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
+  </p>
+</div>
 
+
+
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+    <li><a href="#usage">Usage</a></li>
+    <li><a href="#roadmap">Roadmap</a></li>
+    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#acknowledgments">Acknowledgments</a></li>
+  </ol>
+</details>
+
+
+
+<!-- ABOUT THE PROJECT -->
+## About The Project
+
+[![Product Name Screen Shot][product-screenshot]](https://example.com)
+
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+### Built With
+
+* Bootstrap
+* Javascript
+* HTML
+* CSS
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+<!-- GETTING STARTED -->
+## Getting Started
+
+This is an example of how you may give instructions on setting up your project locally.
+To get a local copy up and running follow these simple example steps.
+
+### Prerequisites
+
+You must have a working internet connection to acess the site. Once you have a working internet connection you can enjoy the discovery of which form of Mario best suites you by entering your name in the provided box. 
+
+<!-- USAGE EXAMPLES -->
 ## Usage
 
-Provide instructions and examples for use. Include screenshots as needed.
+This project can be used to determine what form of Mario suits you for your personal application such as cosplaying.
 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative file path, add it to your README using the following syntax:
 
-![alt text](assets/images/screenshot.png)
 
-## Credits
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-List your collaborators, if any, with links to their GitHub profiles.
 
-If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
+<!-- CONTACT -->
+## Contact
 
-If you followed tutorials, include links to those here as well.
+Keshon Mckie: https://github.com/keshon16 <br>
+Tony Kinney: https://github.com/sketchyTK <br>
+Marcellus Khanyoo-Moona: https://github.com/Mkhanyoo
 
-## Features
+Project Link:[(https://github.com/keshon16/Project-1-it-s-mee/tree/main)]
 
-If your project has a lot of features, list them here.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+<!-- ACKNOWLEDGMENTS -->
+## Acknowledgments
+
+* [https://developer.mozilla.org/en-US/]()
+* []()
+* []()
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
