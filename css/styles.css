@@ -213,8 +213,8 @@ footer{
         align-content: space-evenly;
         header {margin: 0 40px;}
         }
-    @media screen and (max-width: 768px) {
-        main {padding: 0 10px;}
+    @media screen and (max-width: 768px)
+        main : padding 0 10px;
         .modal {padding-bottom: 20px;
          height: 128px;
         z-index: 1;
@@ -223,28 +223,24 @@ footer{
         background-size: cover;
          align-content: space-evenly
         }
-    }
      @media screen and (max-width: 1024px) {
         header {margin: 0 auto;}
         nav ul {flex-direction: column; margin-top: 20px}
         nav ul li {line-height: 1.5em; margin-bottom: 20px; flex: 0 1;}
         .banner {width: 90%; }
-    
-        main {padding: 0 10px;}
-        main p.topPlayer {font-size: 36px; margin-top: 50px;}
-        .mcr-bg {height: 60px; margin-top: 120px;}
-    .pipe {width: 101px;
-    height: 138px;
-    z-index: 1;
-    position: relative;
-    bottom: 70px;
-    background-size: cover; }
-    .hill {width: 180px;
-        height: 120px;
+    }
+        main : {padding: 0 10px;}
+        main p. topPlayer {font-size: 36px; margin-top: 50px;}
+        height: 138px;
         z-index: 1;
         position: relative;
-        bottom: -2px;
-        background-size: contain;}
+        bottom: 70px;
+        background-size: cover;
+        text-transform: uppercase;
+        line-height: 24px;
+        display: flex;
+        width: 100%;
+    }
         .modal {
             position: fixed;
             width: 90%;
@@ -257,4 +253,3 @@ footer{
             width: 360px;
             height: 128.65px;
         }
-    }
