@@ -3,13 +3,13 @@
 <br />
 <div align="center">
   <a href="https://github.com/github_username/repo_name">
-    <img src=""banner-image.png" alt="Logo" width="80" height="80">
+    <img src="https://github.com/keshon16/Project-1-it-s-mee/blob/main/img/banner-image.png" alt="Logo" width="350" height="150">
   </a>
 
 <h3 align="center">Mario Cosplay Randomizer</h3>
 
   <p align="center">
-    project_description
+    Mario Cosplay Randomizer is an interactive application that provides an array of Mario cosplay ideas. It's the ideal application for enthusiasts of the Mario franchise looking for inspiration for their next cosplay.
     <br />
     <a href="https://github.com/github_username/repo_name"><strong>Explore the docs »</strong></a>
     <br />
@@ -57,7 +57,7 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-Mario Cosplay Randomizer is an interactive application that provides an array of Mario cosplay ideas. It's the ideal application for enthusiants of the Mario franchise looking for inspiration for their next cosplay.
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -120,9 +120,3 @@ Project Link:[(https://github.com/keshon16/Project-1-it-s-mee/tree/main)]
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[Javascript]: https://img.shields.io/badge/logo-javascript-blue?logo=javascript&logoColor=f5f5f5
-[Javascript-url]: https://www.javascript.com
-[HTML]
-[CSS]
-[Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
-[Bootstrap-url]: https://getbootstrap.com
